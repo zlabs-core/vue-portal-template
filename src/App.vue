@@ -1,16 +1,12 @@
 <template>
-  <LoginScreen/>
+  <router-view></router-view>
 </template>
 
 <script>
-import LoginScreen from './components/LoginScreen.vue';
 
 export default {
-  name: 'App',
-  components: {
-    LoginScreen
-}
-}
+  name: 'App'
+};
 </script>
 
 <style>
